@@ -92,7 +92,7 @@ public class Cliente {
 
     public void setTelefono2(int telefono2) {
         this.telefono2 = telefono2;
-    }
+    } 
 
     public String getDireccion() {
         return direccion;
