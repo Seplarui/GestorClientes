@@ -7,7 +7,7 @@ import com.clientes.clientesAPI.entities.Cliente;
 public interface ClienteService {
 
     public List<Cliente> findAllClientes();
-    public Optional<Cliente> findClienteById();
+    public Optional<Cliente> findClienteById(Long id);
     public Cliente saveCliente(Cliente clienteNew);
     public String deleteCliente(Long id);
     public String updateCliente(Cliente clienteUpdate);
